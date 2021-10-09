@@ -1,4 +1,4 @@
-.lead__tiile {
+.lead__title {
   max-width: 720px;
   font-style: normal;
   font-weight: 900;
@@ -11,8 +11,20 @@
 }
 
 @media screen and (max-width: 680px) {
-    .lead__tiile {
-      font-size: 2.5rem;
+    .lead__title {
+      font-size: 3.5rem;
       line-height: 1.1;
     } 
+}
+
+@media screen and (max-width: 410px) {
+  .lead__title {
+    font-size: 3rem;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 2.5rem;
+  } 
 }
