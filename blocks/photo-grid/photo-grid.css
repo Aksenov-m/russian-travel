@@ -1,0 +1,26 @@
+.photo-grid {
+  /* min-height: 100vh; */
+  max-width: calc(100% - (48px * 2));
+  display: grid;
+  justify-items: center;
+  margin: 0 auto;
+  margin-top: 92px;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  grid-auto-rows: 1fr; 
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+       max-width: calc(100% - (24px * 2));
+       margin-top: 88px;
+    }
+  } 
+
+  @media screen and (max-width: 320px) {
+    .photo-grid {
+       max-width: calc(100% - (16px * 2));
+       margin-top: 64px;
+    }
+  } 

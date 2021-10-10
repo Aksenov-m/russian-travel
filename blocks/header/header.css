@@ -10,9 +10,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 768px) {
     .header {
       padding-top: 16px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+} 
+
+@media screen and (max-width: 350px) {
+    .header {
       padding-right: 16px;
       padding-left: 16px;
     }
