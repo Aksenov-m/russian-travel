@@ -1,0 +1,12 @@
+.place__description {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  grid-area: place-paragraph; 
+}
+
+@media screen and (max-width: 600px) {
+    .place__description  {
+      max-width: calc(100% - (16px * 2));
+    } 
+  }
