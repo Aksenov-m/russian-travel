@@ -3,3 +3,9 @@
   margin: 0 auto;
   margin-top: 92px;
 }
+
+@media screen and (max-width: 550px) {
+  .cover {
+    margin-top: 66px;
+  }
+}
