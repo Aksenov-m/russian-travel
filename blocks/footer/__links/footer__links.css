@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 18px 32px;
+  gap: 32px 18px;
 }
 
 @media screen and (max-width: 320px) {
