@@ -4,7 +4,12 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
-  text-decoration: none; 
+  text-decoration: none;
+  transition: opacity 0.3s linear 0.2s;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 320px) {

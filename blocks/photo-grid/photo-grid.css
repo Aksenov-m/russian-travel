@@ -1,6 +1,6 @@
 .photo-grid {
   /* min-height: 100vh; */
-  max-width: calc(100% - (48px * 2));
+  max-width: calc(1280px - (48px * 2));
   display: grid;
   justify-items: center;
   margin: 0 auto;
