@@ -1,28 +1,30 @@
 .header {
   max-width: 1280px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0;
+  margin: auto;
+  border: none;
   box-sizing: border-box;
-  margin-top: 28px;
-  margin-left: 48px;
-  margin-right: 48px;
+  padding-top: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 @media screen and (max-width: 768px) {
     .header {
-      margin-top: 28px;
-      margin-left: 24px;
-      margin-right: 24px;
+      padding-top: 28px;
+      padding-left: 24px;
+      padding-right: 24px;
     }
 } 
 
 @media screen and (max-width: 350px) {
     .header {
-      margin-top: 16px;
-      margin-left: 16px;
-      margin-right: 16px;
+      padding-top: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
     }
 } 
